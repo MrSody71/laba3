@@ -7,5 +7,5 @@ class Student:
     def info(self):
         return f"Студент: {self.name}, группа: {self.group}, возраст: {self.age}"
 
-s = Student("Артюх В.В.", "221131", 19)
+s = Student("Артюх В.В.", "221131", 20)
 print(s.info())
